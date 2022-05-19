@@ -1,0 +1,25 @@
+{
+    "name": "theme-gold-experience",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+    "publisher": "vscode",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "Gold Experience",
+                "label": "%themeLabel%",
+                "uiTheme": "vs",
+                "path": "./themes/gold-experience.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/microsoft/vscode.git"
+    }
+}
